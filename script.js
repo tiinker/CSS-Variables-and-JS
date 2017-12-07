@@ -1,5 +1,5 @@
-var blur = document.getElementById("blur");
-var img = document.getElementById("image");
+const blur = document.getElementById("blur");
+const img = document.getElementById("image");
 
 this.addEventListener("change", function(){
     img.style = `filter: 
