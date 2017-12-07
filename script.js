@@ -1,6 +1,5 @@
 var blur = document.getElementById("blur");
 var img = document.getElementById("image");
-var slider = document.querySelectorAll("input[type=range]");
 
 this.addEventListener("change", function(){
     img.style = `filter: 
